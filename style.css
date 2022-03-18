@@ -1,0 +1,35 @@
+
+#parts{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock/clock-face-clip-art-vector-concept-clipart-illustrator-simple-wall-vintage-number-isolated-white-background-222499821.jpg) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+position: absolute;
+background: black;
+border-radius: 5px;
+transform-origin: bottom;
+}
+#hour{
+    width: 10px;
+    height: 20%;
+    left: 49.85%;
+    top: 30%;
+   
+}
+#minute{
+    width: 5px;
+    height: 25%;
+    left: 49.85%;
+    top: 25%;
+  
+}
+#second{
+    width: 3px;
+    height: 32%;
+    left: 49.85%;
+    top: 18%;
+}
